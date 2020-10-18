@@ -1,10 +1,10 @@
 html,
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 89%;
   font-family: "Rubik", sans-serif;
 }
 
@@ -42,13 +42,13 @@ body {
 }
 
 .heading-primary-main {
-  color: #fff;
+  color: white;
   font-size: 10rem;
 }
 
 .heading-primary-sub {
   display: block;
-  font-size: 10 rem;
+  font-size: 500 rem;
   letter-spacing: 1rem;
-  text-shadow: #333 5px 5px;
+  text-shadow: white 5px 5px;
 }

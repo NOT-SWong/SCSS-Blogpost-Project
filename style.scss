@@ -1,3 +1,9 @@
+
+$colors: (
+  primary: #45a29e,
+  primary-light: #66fcf1,
+);
+
 @import "./variable" $fontMain: @function color($color-name) {
     @return map-get($colors, $color-name);
   }
@@ -19,6 +25,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    
   }
   .header {
   height: 10vh;
