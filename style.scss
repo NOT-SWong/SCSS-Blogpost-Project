@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 62.5%; //1rem === 10px
+    font-size: 62.5%;
     font-family: 'Rubik', sans-serif;
   }
   .container {
@@ -24,6 +24,10 @@
   height: 10vh;
   width: 25vw;
 }
+  .heading {
+  height: 8vh;
+  width: 20vw;
+}
   .chat-paragraph {
     height: 100vh;
     background-image: linear-gradient(
@@ -34,6 +38,9 @@
       url(img/Chaotic.png);
     background-size: cover;
     position: relative;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
   }
   .text-box {
     position: absolute;
